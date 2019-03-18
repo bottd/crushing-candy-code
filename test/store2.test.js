@@ -46,7 +46,7 @@ describe('Store2 Exercises', function() {
     })
   })
 
-  xdescribe('#challenge1()', function () {
+  describe('#challenge1()', function () {
     it('returns an object of candies and total revenue rounded to two numbers', function () {
       var result = {
         'Dark Chocolate Crunchies': '17.16',

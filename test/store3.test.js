@@ -57,7 +57,7 @@ describe('Store3 Exercises', function() {
     })
   })
 
-  xdescribe('#challenge1()', function () {
+  describe('#challenge1()', function () {
     it('returns revenue rounded to two numbers', function () {
       assert.deepEqual(exercise.challenge1(), 14.35)
     })
